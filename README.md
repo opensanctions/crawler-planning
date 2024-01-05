@@ -20,3 +20,5 @@ When you feel your new/modified crawler is ready for production,
 If it's ready, we'll merge it, move it to the **Done column**, it will be deployed automatically, and run according to its schedule.
 
 If some changes are needed, we'll comment on the pull request, and move it back to to the **In Progress column** for you to revise.
+
+Please try to finish any work in progress before starting anything new.
