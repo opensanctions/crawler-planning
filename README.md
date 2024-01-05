@@ -14,7 +14,7 @@ When you're ready to start your next task, take the next top card and move it to
 
 When you feel your new/modified crawler is ready for production, 
   - create a pull request with your branch
-  - link your pull request to the card issue
+  - [link your pull request to the card issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
   - move the card to the **In Review column**.
 
 If it's ready, we'll merge it, move it to the **Done column**, it will be deployed automatically, and run according to its schedule.
