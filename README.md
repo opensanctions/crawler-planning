@@ -8,9 +8,9 @@ Your next step, is to dive into the [instructions to get started with zavod](htt
 
 # Workflow
 
-The **Backlog column** is ordered in decreasing priority.
+The **Todo column** is ordered in decreasing priority.
 
-When you're ready to start your next task, take the next top card and move it to the **In Progress column**. Add yourself as an assignee, if we haven't already done so.
+When you're ready to start your next task, take the next top card in the **Todo column** and move it to the **In Progress column**. Add yourself as an assignee, if we haven't already done so.
 
 When you feel your new/modified crawler is ready for production, 
   - create a pull request with your branch
