@@ -1,12 +1,24 @@
-Welcome to the OpenSanctions Crawler team!
+# Welcome to the OpenSanctions crawler planning repository!
 
-# Getting started
+This is where we coordinate implementing crawlers - the open source code which takes data from various sources, converts it to our data model, and adds it to our database for use in screening and investigations.
+
+We have a contracted team who helps us keep on top of demand and our data coverage goals. If you're [interested in joining, let us know](https://www.opensanctions.org/docs/company/jobs/crawler-team/)!
+
+We also welcome volunteer open source contributions, but recommend that you first take a look at the project board and [chat with us](https://www.opensanctions.org/contact/) to discuss the most appropriate next crawler to add. We'll then handle the movements on the project board described below on your behalf.
+
+## New data source suggestions
+
+Suggestions for data sources can be added by [submitting an issue](https://github.com/opensanctions/crawler-planning/issues/new/choose) in this repository. But please have a quick little [search](https://github.com/opensanctions/crawler-planning/issues) to see if someone else has already suggested the same source.
+
+We review submissions and queue them for addition if/when they meet our (data inclusion criterea](https://www.opensanctions.org/docs/criteria/).
+
+## Getting started on the team
 
 We will assign your first task on the [project board](https://github.com/orgs/opensanctions/projects/2) which we'll pick to be a nice introductory task.
 
 Your next step is to dive into the [instructions to get started with zavod](https://zavod.opensanctions.org/), our ETL framework, and see if you can get a crawler working.
 
-# Workflow
+## Workflow
 
 The **Todo column** is ordered in decreasing priority.
 
@@ -27,7 +39,7 @@ If some changes are needed, we'll comment on the pull request, and move it back 
 
 Please try to finish any work in progress before starting anything new.
 
-# Kinds of crawlers, sources, or data
+## Kinds of crawlers, sources, or data
 
 Crawlers generally bring one type of [target](https://www.opensanctions.org/docs/glossary/#targets) into our database, and tasks are annotated to indicate the type:
 
