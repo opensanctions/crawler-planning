@@ -1,0 +1,33 @@
+name: "New data source request/suggestion"
+description: Propose a new data source to potentially be added to OpenSanctions
+labels: proposed
+body:
+  - type: input
+    id: data_url
+    attributes:
+      label: Data URL
+      description: Where can the data be found, if known?
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of data
+      description: What kind of data is this?
+      options:
+        - Sanctions (Governments barring specific engagement e.g. financial transaction with these entities)
+        - Debarment (Entities banned from participating in public contracting)
+        - Crime/Wanted/Suspected (Persons suspected or convicted of crimes and listed by official law enforcement)
+        - PEPs (Politicall Exposed Persons)
+        - Other risk or public interest (If none of the above fit, but there is corporate compliance or public interest in identifying these entities)
+  - type: textarea
+    id: more_details
+    attributes:
+      label: Can you tell us more?
+      description: Any more detail we should know? Where can we find the data if not obvious fromt he URL above? Any links to more info? Why is it significant?
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: This is a suggestion or request
+      description: By submitting this suggestion, you acknowledge that OpenSanctions is under no obligation or expectation to process this list, but may make a decision about its relevance in due course.
+      options:
+        - label: I understand.
+          required: true
