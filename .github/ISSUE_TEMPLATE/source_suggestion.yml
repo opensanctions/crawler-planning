@@ -24,14 +24,13 @@ body:
       label: Coverage region
       description: Geographic region partially/fully covered by the data
       options:
-        - Unknown
-        - Global
-        - Africa
-        - Asia/Pacific
-        - Europe
-        - Latin America
-        - Middle East
-        - North America
+        - region:Global
+        - region:Africa
+        - region:Asia/Pacific
+        - region:Europe
+        - region:Latin America
+        - region:Middle East
+        - region:North America
     validations:
       required: true
   - type: textarea
