@@ -18,6 +18,21 @@ body:
         - Crime/Wanted/Suspected (Persons suspected or convicted of crimes and listed by official law enforcement)
         - PEPs (Politicall Exposed Persons)
         - Other risk or public interest (If none of the above fit, but there is corporate compliance or public interest in identifying these entities)
+  - type: dropdown
+    id: coverage_region
+    attributes:
+      label: Geographic region partially/fully covered by the data
+      option:
+        - Unknown
+        - Global
+        - Africa
+        - Asia/Pacific
+        - Europe
+        - Latin America
+        - Middle East
+        - North America
+    validations:
+      required: true
   - type: textarea
     id: more_details
     attributes:
