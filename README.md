@@ -10,7 +10,7 @@ We also welcome volunteer open source contributions, but recommend that you firs
 
 Suggestions for data sources can be added by [submitting an issue](https://github.com/opensanctions/crawler-planning/issues/new/choose) in this repository. But please have a quick little [search](https://github.com/opensanctions/crawler-planning/issues) to see if someone else has already suggested the same source.
 
-We review submissions and queue them for addition if/when they meet our (data inclusion criterea](https://www.opensanctions.org/docs/criteria/).
+We review submissions and queue them for addition if/when they meet our [data inclusion criterea](https://www.opensanctions.org/docs/criteria/).
 
 ## Getting started on the team
 
