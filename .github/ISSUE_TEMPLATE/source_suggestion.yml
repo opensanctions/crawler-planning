@@ -21,7 +21,8 @@ body:
   - type: dropdown
     id: coverage_region
     attributes:
-      label: Geographic region partially/fully covered by the data
+      label: Coverage region
+      description: Geographic region partially/fully covered by the data
       options:
         - Unknown
         - Global
