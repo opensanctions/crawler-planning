@@ -22,7 +22,7 @@ body:
     id: coverage_region
     attributes:
       label: Geographic region partially/fully covered by the data
-      option:
+      options:
         - Unknown
         - Global
         - Africa
