@@ -7,6 +7,16 @@ body:
     attributes:
       label: Data URL
       description: Where can the data be found, if known?
+  - type: input
+    id: publisher
+    attributes:
+      label: Publisher
+      description: Who's publishing this list/data/website?
+  - type: input
+    id: publisher_country
+    attributes:
+      label: Publisher country/territory code
+      description: [Countries and territories](https://www.opensanctions.org/reference/#type.country)
   - type: dropdown
     id: type
     attributes:
