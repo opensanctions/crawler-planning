@@ -18,13 +18,25 @@ We will assign your first task on the [project board](https://github.com/orgs/op
 
 Your next step is to dive into the [instructions to get started with zavod](https://zavod.opensanctions.org/), our ETL framework, and see if you can get a crawler working.
 
+## Starting off 
+
+### Issue Documentation
+Record important decisions and reasoning in GitHub issues, such as explaining why a crawler skips an interesting section of the site.
+
+### Branch Naming Conventions
+Follow a consistent branch naming strategy to avoid issues with special characters in shell environments. Use **slug-like** names that are descriptive, hyphen-separated, and free of special characters such as `#`, `(`, or `)`:
+
+```bash
+git checkout planning-206-office-of-antiboycott-compliance
+```
+
 ## Workflow
 
 The **Todo column** is ordered in decreasing priority.
 
 When you're ready to start your next task, take the next top card in the **Todo column** and move it to the **In Progress column**. Add yourself as an assignee, if we haven't already done so.
 
-When you feel your new/modified crawler is ready for production, 
+When you feel your new/modified crawler is ready for production,
   - create a pull request to the [opensanctions](https://github.com/opensanctions/opensanctions) repository with your branch
   - [link your pull request to the card issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
   - move the card to the **In Review column**.
