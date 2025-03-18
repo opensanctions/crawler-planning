@@ -44,7 +44,7 @@ When you feel your new/modified crawler is ready for production,
 If it's ready
   - we'll add it to the appropriate collection
   - we'll merge it
-  - we'll move it to the **Done column**
+  - we'll move it to the **Merged column**
   - it will be deployed automatically, and run according to its schedule.
 
 If some changes are needed, we'll comment on the pull request, and move it back to to the **In Progress column** for you to revise.
@@ -60,3 +60,34 @@ Crawlers generally bring one type of [target](https://www.opensanctions.org/docs
 - `pep-list` - Politically exposed persons
 
 Each kind of target should be [annotated according to our data model](https://www.opensanctions.org/docs/topics/).
+
+## Releasing datasets
+
+Our Deploy Team members can release datasets once they have been merged, and completed their first successful run.
+
+Using the dataset name `jp_meti_ru` as example:
+
+- If it's a company register or other enrichment source, we won't add it to `default`, the next step is to configure an enricher and that would be released as follows.
+- If the planning card has the `check-release-plan` label, check inside the crawler for any deviation required from the following.
+    - This is normally for special datasets that aren't intended to be added published in `default` (perhaps via its children).
+
+1. Check if it has completed a run - visit https://www.opensanctions.org/datasets/jp_meti_ru/
+    - check that there aren't any errors, and ideally no warnings.
+    - if it hasn't run yet, perhaps trigger it.
+2. Check that everything looks good.
+    - Check that the title, summary, description, publisher name and description all look sensible rendered on the website
+    - Check that any markdown like paragraph breaks, hyperlinks, bulleted lists etc rendered correctly
+    - Check once more for spelling and grammar issues
+    - Download the data and spot check a couple of entities
+      - Check that they have the expected topic
+      - Check that they have names
+      - These are boring things that have gone wrong and been caught on release
+3. Release the dataset
+     - Make sure coverage.start is correct - either the date of the first run for dynamically updated data, or the date of extraction or original source publication for static datasets.
+     - Add the dataset to the most appropriate collection which is a descendant of `default`
+4. Drag the card to Added to collection
+5. When the parent collection and `default` exporters have run, and the website cache cleared
+    - Check that you can see the entities in search results. Spot check that a couple look good.
+    - Perhaps add a comment to the card to highlight something interesting about this dataset to mention in announcements
+6. Drag the card to Ready to be announced
+    - Once here, it can be announced in the various channels
