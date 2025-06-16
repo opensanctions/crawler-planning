@@ -26,7 +26,7 @@ body:
         - Companies (National registers of companies, organizations, etc)
         - Crime/Wanted/Suspected (Persons suspected or convicted of crimes and listed by official law enforcement)
         - Debarment (Entities banned from participating in public contracting)
-        - PEPs (Politicall Exposed Persons)
+        - PEPs (Politically Exposed Persons)
         - Sanctions (Governments barring specific engagement e.g. financial transaction with these entities)
         - Other risk or public interest (If none of the above fit, but there is corporate compliance or public interest in identifying these entities)
   - type: dropdown
